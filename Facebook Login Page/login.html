@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #F0F2F5;
+            font-size: 17px;
+        }
+
+        h1 {
+
+            position: fixed;
+            top: 34%;
+            left: 14%;
+            color: #1877F2;
+            font-size: 80px;
+        }
+
+        .login {
+            position: fixed;
+            top: 31%;
+            left: 56%;
+            height: 414px;
+            width: 457px;
+            border-width: 0px;
+            border-style: solid;
+            border-radius: 8px;
+            background-color: white;
+
+            /* Right Top Bottom Left  */
+            box-shadow: 2px 5px 7px 7px #ccd0d5;
+        }
+
+        .logele {
+            display: block;
+
+            /* Top Left Bottom Right */
+            margin: 14px 14px 14px 19px;
+            padding-top: 19px;
+            padding-bottom: 19px;
+            border-radius: 7px;
+            width: 419px;
+            box-sizing: border-box;
+            padding-left: 9px;
+            font-size: 17px;
+            /* background-color: white; */
+        }
+
+        #forgotpass {
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            color: #1877F2;
+            margin-top: 0px;
+            width: 146px;
+            position: relative;
+            left: 28%;
+        }
+
+        #loginbut {
+            background-color: #1877F2;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 4px;
+            font-size: 20px;
+            padding-left: 0px;
+            border-width: 0px;
+        }
+
+        #hrline {
+            width: 409px;
+        }
+
+        #newacc {
+            background-color: #42b72a;
+            color: white;
+            font-weight: 700;
+            font-size: 19px;
+            width: 200px;
+            margin: auto;
+            margin-top: 34px;
+            margin-bottom: 0px;
+            border-width: 0px;
+        }
+
+        #lowmain {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            color: rgb(46, 45, 45);
+            font-weight: 100;
+            width: 612px;
+            margin-top: 12px;
+        }
+
+        #enum {
+            border: 1px solid #ccd0d5;
+        }
+
+        #pass {
+            border: 1px solid #ccd0d5;
+        }
+
+        #forgotpass:hover {
+            text-decoration: underline;
+        }
+
+        #loginbut:hover {
+            cursor: pointer;
+            background-color: #247ff5;
+        }
+
+        #newacc:hover {
+            cursor: pointer;
+            background-color: #31971d;
+        }
+
+        #enum:focus {
+            background-color: rgba(248, 246, 246, 0.764);
+        }
+
+        #pass:focus {
+            background-color: rgba(248, 246, 246, 0.764);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>
+        facebook
+        <p id="lowmain">Facebook helps you connect and share with the people in your life.</p>
+    </h1>
+
+    <div class="login">
+
+        <!-- action defines what to do with the date entered in the form -->
+        <form action="">
+            <input type="text" class="logele" id="enum" placeholder="Email address or phone number">
+            <input type="password" class="logele" name="pass" id="pass" placeholder="Password">
+            <button class="logele" id="loginbut">Login</button>
+            <a href="https://www.facebook.com" class="logele" id="forgotpass">Forgot password?</a>
+            <hr id="hrline">
+            <button class="logele" id="newacc">Create new account</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
